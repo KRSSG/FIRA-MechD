@@ -14,12 +14,20 @@ Wheels are 40 mm in diameter and a rubber grip is fixed on the wheel for better 
 Wheel-Motor Connection
 The motor is mounted on chassis and then a gear is fit from outside. The wheel with gear is mounted on axle so that both the gear meshes with each other.
 
+![Wheel-Gear Assembly](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv1.0/wheel.png)
+
 ###Dribbling System
 
 The bot is not having any particular dribbling device but we make grooves in the front and back part of chassis to hold the ball while moving.it has  two groves on each side in such a way that only 20% of the ball is inside the chassis of bot.
+
+![Dribbler](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv1.0/dribbler.png)
 
 
 ###Chassis
 Chassis is 7.5cm x 7.5cm x 6cm made up of aluminium .It is made in four different parts , two parts of wheel and two for dribbling grooves , they are joined together , mounting motor inside and mounting axle and then battery is kept over the motors in between the four sides. The motors are aligned one after other .Then circuit is mounted at the top of the chassis with the help of studs.
 
+![Chassis]()https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv1.0/chassis.png)
+
 ##FIRA v2.0
+
+TODO
