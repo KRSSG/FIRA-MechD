@@ -1,0 +1,299 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 12/24/18 by Ankush
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+swApp.ActivateDoc2 "FIRA assembly", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+' MSGBOX
+' Warning: The file D:\KRSSG\FIRA - CAD-BOM-Drawings\FIRAv2.0\FIRA assembly.SLDASM is from educational version. This file is for instructional use only.
+
+boolstatus = Part.Extension.SelectByID2("DetailItem1@Annotations", "ANNOTATIONTABLES", -0.23714313604675874, 0.03999993084872705, 0.071582633897888076, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("", "FACE", 0.034409081917488038, -0.0018286176864421577, 0.03630257047672103, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ViewTranslateplusx
+Part.ViewTranslateplusx
+Part.ViewTranslateplusx
+Part.ViewTranslateplusx
+Part.ViewTranslateplusx
+Part.ViewTranslateplusx
+Part.ViewTranslateminusy
+Part.ViewTranslateminusy
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+boolstatus = Part.Extension.SelectByID2("motor-1@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-11@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("", "FACE", 0.055010456025343046, 0.054846878934029064, 0.057702645390875773, False, 0, Nothing, 0)
+Part.TranslateComponent
+boolstatus = Part.Extension.SelectByID2("stud-1@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.ShowConfiguration2("PreviewCfg")
+Part.ClearSelection2 True
+' MSGBOX
+' FIRA assembly - Rebuild Errors
+
+' MSGBOX
+' Concentric38: One of the entities of this mate is suppressed, invalid, or no longer present.Concentric45: One of the entities of this mate is suppressed, invalid, or no longer present.
+
+' MSGBOX
+' FIRA assembly - Rebuild Errors
+
+' MSGBOX
+' Concentric38: One of the entities of this mate is suppressed, invalid, or no longer present.Concentric45: One of the entities of this mate is suppressed, invalid, or no longer present.
+
+boolstatus = Part.ShowConfiguration2("B18.6.7M - M3 x 0.5 x 10 Type I Cross Recessed FHMS --10N")
+' MSGBOX
+' FIRA assembly - Rebuild Errors
+
+' MSGBOX
+' Concentric38: One of the entities of this mate is suppressed, invalid, or no longer present.Concentric45: One of the entities of this mate is suppressed, invalid, or no longer present.
+
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-24@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-25@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-24@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-23@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-24@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Concentric45", "MATE", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Concentric45", "MATE", 0, 0, 0, False, 0, Nothing, 0)
+Part.EditSuppress2
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-39@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Concentric38", "MATE", 0, 0, 0, False, 0, Nothing, 0)
+Part.EditSuppress2
+Part.ClearSelection2 True
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+boolstatus = Part.Extension.SelectByID2("", "VERTEX", 0.058600731862488133, 0.068214497955400688, 0.035265383326868315, False, 0, Nothing, 0)
+boolstatus = Part.EditRebuild3()
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("", "FACE", 0.03667023775750522, 0.0013713530940435703, 0.059127557271059672, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-41@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-38@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-35@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-36@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-37@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-41@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-42@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-43@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-44@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-45@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-46@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-47@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-48@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-49@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-50@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("pan cross head_am-1@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("pan cross head_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("pan cross head_am-3@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("pan cross head_am-4@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("pan cross head_am-4@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Dim myFeature As Object
+Set myFeature = Part.FeatureManager.InsertFeatureTreeFolder2(swFeatureTreeFolderType_e.swFeatureTreeFolder_Containing)
+boolstatus = Part.SelectedFeatureProperties(0, 0, 0, 0, 0, 0, 0, 1, 0, "Screws")
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-38@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-39@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-40@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-39@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-38@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-39@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-40@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-39@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-26@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-25@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-26@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-35@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-36@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-37@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-35@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-11@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-17@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-20@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-21@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-22@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-23@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-24@FIRA assembly", "COMPONENT", 0, 0, 0, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-21@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("flat head screw_am-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Screws", "FTRFOLDER", 0, 0, 0, False, 0, Nothing, 0)
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateplusx
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusy
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("washer-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("washer-2@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Circuit_NRF-1@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("spur gear_am-5@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("spur gear_am-5@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.ReplaceComponents("D:\KRSSG\FIRA - CAD-BOM-Drawings\FIRAv2.0\Spur Gear Wheel.SLDPRT", "Metric - Spur gear 0.3M 118T 20PA 2FW ---S118O22H4.5L14N", False, 1, True)
+boolstatus = Part.Extension.SelectByID2("spur gear_am-6@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("spur gear_am-6@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("spur gear_am-6@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.ReplaceComponents("D:\KRSSG\FIRA - CAD-BOM-Drawings\FIRAv2.0\Spur Gear Wheel.SLDPRT", "Metric - Spur gear 0.3M 118T 20PA 2FW ---S118O22H4.5L14N", False, 1, True)
+boolstatus = Part.Extension.SelectByID2("Spur Gear Wheel-6@FIRA assembly", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.OpenCompFile
+Set Part = swApp.OpenDoc6("D:\KRSSG\FIRA - CAD-BOM-Drawings\FIRAv2.0\Spur Gear Wheel.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 22
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Spur Gear Wheel", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ClearSelection2 True
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+Part.ViewRotateminusx
+Part.ViewRotateminusx
+Part.ViewRotateplusx
+Set Part = Nothing
+swApp.CloseDoc "Spur Gear Wheel"
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "FIRA assembly", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ViewTranslateminusx
+Part.ViewTranslateminusx
+Part.ViewTranslateminusx
+Part.ViewTranslateplusy
+boolstatus = Part.Extension.SelectByID2("DetailItem1@Annotations", "ANNOTATIONTABLES", -0.22369853950093413, 0.073013959875922518, -0.0074582807234524415, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ViewTranslateminusy
+Part.ViewTranslateminusy
+Part.ViewTranslateplusy
+Part.ViewTranslateplusy
+Part.ViewTranslateplusy
+Part.ViewTranslateplusy
+boolstatus = Part.Extension.SelectByID2("DetailItem1@Annotations", "ANNOTATIONTABLES", -0.19734219648364809, 0.034927967650263569, -0.12232867398972089, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+longstatus = Part.SaveAs3("D:\KRSSG\FIRA - CAD-BOM-Drawings\FIRAv2.0\FIRAv2.0 Assembly.STEP", 0, 0)
+' MSGBOX
+' Save changes to FIRA assembly?
+
+Set Part = Nothing
+swApp.CloseDoc "FIRA assembly"
+swApp.ExitApp
+End Sub
