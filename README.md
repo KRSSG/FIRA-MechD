@@ -39,4 +39,4 @@ The front two grooves have been merged into a single groove for better control o
 #### Caster Ball
 The assembly of the two caster balls have been improved. An additional plate at the bottom now supports the balls in their grooves.
 
-![FIRA v2.0 Assembly](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv2.0/FIRA assembly.jpg)
+![FIRA v2.0 Assembly](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv2.0/FIRA_assembly.jpg)
