@@ -1,7 +1,7 @@
 # FIRA-MechD
 Repository for the Mechanical Design of robots by IIT Kharagpur KRSSG for FIRA Roboworld Cup.
 
-![FIRA Robot Developed by KRSSG](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRA.png)
+![FIRA Robot Developed by KRSSG](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRA.jpg)
 
 ## FIRA v1.0
 
@@ -39,4 +39,4 @@ The front two grooves have been merged into a single groove for better control o
 #### Caster Ball
 The assembly of the two caster balls have been improved. An additional plate at the bottom now supports the balls in their grooves.
 
-![FIRA v2.0 Assembly](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv2.0/FIRA assembly.png)
+![FIRA v2.0 Assembly](https://raw.githubusercontent.com/KRSSG/FIRA-MechD/master/FIRAv2.0/FIRA assembly.jpg)
